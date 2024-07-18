@@ -1,0 +1,43 @@
+.wrapper,
+.card {
+  width: 200px;
+  height: 130px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover,
+.wrapper:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper-btn1,
+.wrapper-btn2,
+.wrapper-btn3 {
+  width: 60px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  margin-left: 5px;
+}
+
+.wrapper-btn1 {
+  background-color: lightcoral;
+  color: white;
+}
+
+.wrapper-btn2 {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.wrapper-btn3 {
+  background-color: goldenrod;
+  color: white;
+}

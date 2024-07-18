@@ -1,0 +1,28 @@
+.social-media {
+  width: 200px;
+  height: 130px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like,
+.dis-like {
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333;
+}
+
+.like-counter {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333;
+}
