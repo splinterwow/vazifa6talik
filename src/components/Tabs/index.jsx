@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './index.css'
+import './index.css';
 
 function Tabs() {
   const [tabState, setTabState] = useState("tab1");
@@ -9,7 +9,7 @@ function Tabs() {
   }
 
   return (
-    <div className="wrapper">
+    <div className="card">
       <h2 className="tab-content">
         {tabState === "tab1" && "Hello tab 1"}
         {tabState === "tab2" && "Hello tab 2"}

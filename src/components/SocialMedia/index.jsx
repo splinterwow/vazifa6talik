@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineLike, AiOutlineDislike } from "react-icons/ai";
-import "./index.css"; // SocialMedia uchun stillar
+import "./index.css";
 
 function SocialMedia() {
   const [likeCounter, setLikeCounter] = useState(0);
@@ -14,7 +14,7 @@ function SocialMedia() {
   }
 
   return (
-    <div className="social-media">
+    <div className="card social-media">
       <AiOutlineLike className="like" onClick={handleLike} />
       <span className="like-counter">{likeCounter}</span>
       <AiOutlineDislike className="dis-like" onClick={handleDislike} />
