@@ -4,6 +4,7 @@ import Tabs from "./components/Tabs";
 import Counter from "./components/Counter";
 import GameNamePicker from "./components/GamePicker";
 import ProgressBar from "./components/ProgressBar";
+import ImageGallery from "./components/ImageGalarey";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <SocialMedia />
       <GameNamePicker />
       <ProgressBar />
+      <ImageGallery />
     </div>
   );
 }
